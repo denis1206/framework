@@ -282,3 +282,21 @@ label{
     display: block;
     font-weight: 700;
 }
+
+/* Listas */
+ol,
+ul{
+    list-style-position: inside;
+    padding-left: 0; 
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul{
+    padding-left: 3rem;
+}
+
+li{
+    margin-bottom: 1rem;
+}
