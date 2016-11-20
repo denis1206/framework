@@ -300,3 +300,48 @@ ol ul{
 li{
     margin-bottom: 1rem;
 }
+
+/* Código */
+code{
+    background-color: #f1f1f1;
+    color: #c7254e;
+    padding: .2rem .5rem;
+    border-radius: 2px;
+}
+
+pre > code{
+    display: block;
+    padding: 1rem 1.5rem;
+}
+
+/* Tabelas */
+table{
+    border-collapse: collapse;
+}
+
+th,
+td{
+    padding: 1rem .7rem;
+    text-align: left;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+/* Espaçamento */
+.botao,
+button,
+input,
+select,
+textarea,
+table{
+    margin-bottom: 1rem;
+}
+
+label{
+    margin-bottom: .4rem
+}
+
+/* Utilidades */
+.u-width-100{
+    box-sizing: border-box;
+    width: 100%;
+}
